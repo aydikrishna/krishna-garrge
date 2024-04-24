@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AK LUXURY CAR'S</title>
+    <style>
+        * {
+            margin:0px;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        #a {
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            text-decoration: none;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+
+        ul li {
+            margin-left: 65px;
+        }
+
+        ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        li {
+            display: inline-block;
+            margin: 1px;
+            padding-left: 5px;
+            margin-top: 1px;
+            font-size: 25px;
+            list-style: none;
+            text-align: center;
+            margin-left: 40px;
+        }
+
+        a:hover {
+            color: #E71F1F;
+            transition: .5s;
+        }
+
+        ul li:hover {
+            color: #E71F1F;
+        }
+
+        #contact_us {
+            color: #E71F1F;
+        }
+
+        #contact {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 40px;
+        
+        }
+
+        #item-1 {
+            float: left;
+            background-color: black;
+            margin-top: 30px;
+            height: 500px;
+            width: 500px;
+            margin-left: 250px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        .map {
+            height: 0%;
+            width: 400px;
+            float: right;
+            margin-right: -390px;
+            margin-top: -480px;
+        }
+
+        #name {
+            margin-top: 1px;
+            padding: 15px;
+            padding-left: 30px;
+            background-color: #aaaaaa;
+            border-radius: 10px;
+            font-size: 30px;
+            margin-left: -20px;
+        }
+
+        #phone {
+            margin-top: 15px;
+            padding: 15px;
+            padding-left: 30px;
+            background-color: #aaaaaa;
+            border-radius: 10px;
+            font-size: 30px;
+            margin-left: -20px;
+        }
+
+        #email {
+            margin-top: 15px;
+            padding: 15px;
+            padding-left: 30px;
+            background-color: #aaaaaa;
+            border-radius: 10px;
+            font-size: 30px;
+            margin-left: -20px;
+        }
+
+        #area {
+            margin-top: 15px;
+            padding: 15px;
+            padding-left: 30px;
+            background-color: #aaaaaa;
+            border-radius: 10px;
+            font-size: 30px;
+            margin-left: -20px;
+        }
+
+        #send {
+            height: 43px;
+            width: 100px;
+            border-radius: 10px;
+            background-color: #E71F1F;
+            color: white;
+            text-align: center;
+            margin-left: 200px;
+            margin-top: 30px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <ul id="a">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Page-2.html">Top Deals</a></li>
+                <li><a href="Page-5.html">Luxury Cars</a></li>
+                <li><a href="Page-7.html">Why choose us?</a></li>
+                <li><a href="Page-8.html">About</a></li>
+                <li><a href="" id="contact_us">Contact Us</a></li>
+                <li><a href="Page-11.html"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div id="item-1">
+            <h1 id="contact">CONTACT US</h1>
+            <form action="">
+                <table style="padding-left: 35px;color: white;">
+                    <tr>
+                        <th><input type="text" placeholder="Name" id="name"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="number" placeholder="Phone No." id="phone"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="email" placeholder="E-mail" id="email"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="text" placeholder="Location of Area" id="area"></th>
+                    </tr>
+                </table>
+                <button id="send">Send</button>
+            </form>
+            <div class="map">
+                <img src="Images/map.2.png" alt="map"
+                    style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; height:500px;">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

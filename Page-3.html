@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AK LUXURY CAR'S</title>
+</head>
+<style>
+    html {
+        background-image: url(Images/Pogea\ Car.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1470px;
+        height: 1000px;
+
+    }
+
+    #l {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        margin-top: 30px;
+        color: white;
+
+    }
+
+    #a {
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #ffff;
+        text-decoration: none;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    ul li {
+        margin-left: 80px;
+    }
+
+    ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 2px;
+        margin-left: 5px;
+        font-size: 25px;
+        list-style: none;
+        text-align: center;
+    }
+
+    #top {
+        color: #d91717;
+    }
+
+    a:hover {
+        color: #d91717;
+        transition: .5s;
+
+    }
+
+    .next {
+        margin-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        float: right;
+        margin-right: -100px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .privious {
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-left: -730px;
+        cursor: pointer;
+        color: black;
+        margin-top: -5px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #sport {
+        color: white;
+        font-size: 130px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 120px;
+        margin-left: 50px;
+
+    }
+
+    .container {
+        width: 550px;
+        height: 600px;
+        border: 6px solid white;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-left: 750px;
+        margin-top: -330px;
+        backdrop-filter: blur(10px);
+        background: rgb(255, 0, 0, 0);
+    }
+
+    .box {
+        height: 250px;
+        width: 561px;
+        background-color: white;
+        margin-left: 750px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-top: -27px;
+    }
+
+    #info {
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    #new {
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    #pogea {
+        margin-top: 0px;
+        margin-left: 30px;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-align: left;
+
+    }
+
+    #obey {
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        text-align: left;
+    }
+
+    #capture {
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        text-align: left;
+    }
+
+    #year {
+
+        font-size: medium;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font: caption;
+        font-size: 25px;
+        text-align: center;
+        margin-top: -40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    #line1 {
+        margin-left: 10px;
+        color: #bcbcbc;
+        margin-top: 1px;
+    }
+
+    #rent {
+        display: flex;
+        margin-left: 40px;
+        margin-top: -10px;
+        font-size: 25px;
+        color: #bcbcbc;
+    }
+
+    #price {
+        margin-left: 200px;
+        color: black;
+        cursor: pointer;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    #inc {
+        color: #bcbcbc;
+        margin-left: 400px;
+        margin-top: -40px;
+    }
+
+    #pogea_7 {
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 5px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="hero">
+        <nav>
+            <ul id="a">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="" id="top">Top Deals</a></li>
+                <li><a href="Page-5.html">Luxury Cars</a></li>
+                <li><a href="Page-7.html">Why choose us?</a></li>
+                <li><a href="Page-8.html">About</a></li>
+                <li><a href="Page-10.html">Contact Us</a></li>
+                <li><a href="Page-11.html"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 id="sport">Sport Cars</h1>
+    <div class="container">
+        <li id="info">Info</li><br>
+        <li id="new">New</li><br>
+        <li id="pogea"><b>POGEA <br>7088</b></li><br>
+        <li id="obey">A Car That Does Not <br>Obey Time</li><br>
+        <li id="capture">New POGEA 7088 Has Capture <br>The Factures<br>Of All New Sport Car , It Can Go <br>0-100km/H
+            In 9.89sec
+        </li>
+    </div>
+    <div class="box">
+        <h1 id="pogea_7"> POGEA 7088 </h1>
+        <div id="year">
+            <li>
+                </li;><br><br><i class="fa-solid fa-calendar-days">&nbsp;</i>2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                1000Hp</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-users"></i>&nbsp;1</li><br>
+            <li id="line1" style="color: black;">___________________________________</li><br>
+            <li id="rent">
+                <h5>Rental Cost</h5>
+                <h5 id="price"> 6,499 AED /Day</h5>
+            </li>
+            <h5 id="inc"> Inc. VAT</h5>
+        </div>
+        <div class="privious">
+            <h1 style="float: left;"><a href="http://127.0.0.1:5500/Page-2.html"><i
+                        class="fa-sharp fa-solid fa-less-than"></i>&nbsp;privious</a>
+            </h1>
+        </div>
+        <div class="next">
+            <a href="http://127.0.0.1:5500/Page-4.html" style="color: white;"><h1> Next&nbsp; <i class="fa-sharp fa-solid fa-greater-than"></i></h1></a>
+        </div>
+</body>
+</html>
